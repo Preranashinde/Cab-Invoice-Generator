@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RideRepository {
+    RideRepository rideRepository= null;
     Map<String , ArrayList<Ride>> userRides = null;
 
     public RideRepository() {
